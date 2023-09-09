@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #232044;
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  display: inline-flex;
+  margin: auto;
+  padding: 70px 70px 100px 70px;
+  border-radius: 60px;
+  background: #322e59;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .head1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #bcbacf;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .text1 {
+    color: #bcbacf;
+    align-items: flex-start;
+  }
+
+  .search {
+    color: #bcbacf;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+
+    .input-text {
+      background-color: #232044;
+      border: none;
+      border-radius: 5px;
+      display: flex;
+      padding: 16px;
+      align-items: center;
+      gap: 16px;
+      align-self: stretch;
+    }
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    color: #bcbacf;
+    font-family: mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    .check-text {
+      display: flex;
+      // flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+  }
+
+  .checkbox {
+    color: #bcbacf;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+    .check-text {
+      display: flex;
+      // flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    img {
+      width: 34px;
+      height: 34px;
+      flex-shrink: 0;
+    }
+  }
+
+  .save-btn {
+    display: flex;
+    width: 344px;
+    padding: 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    background: #ffbb56;
+  }
+}
